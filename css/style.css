@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	outline: 0;
+}
+header{
+	position: relative;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/bg.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	text-align: center;
+}
+.navbar{
+	background-color: rgba(0,0,0,0.4);
+}
+.navbar-brand{
+	font-size: 25px;
+}
+.nav-link{
+	font-size: 20px;
+}
+.one{
+	height: 100vh;
+	width: auto;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+.like{
+	padding: 15px 25px;
+	outline: 0;
+	background-color: #fff;
+	border: 2px solid #fff;
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+.like:hover{
+	text-decoration: none;
+	color: #fff;
+	background: transparent;
+}
+.subscribe{
+	padding: 15px 25px;
+	outline: 0;
+	background-color: transparent;
+	border: 2px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+.subscribe:hover{
+	text-decoration: none;
+	color: #000;
+	background: #fff;
+}
+.first{
+	background: linear-gradient(90deg,#0162c8,#55e7fc);
+	color: #fff;
+	padding: 10px 20px;
+}
+.first:hover{
+	color: #fff;
+	background: linear-gradient(360deg,#0162c8,#55e7fc);
+	text-decoration: none;
+}
+.second{
+	background: linear-gradient(90deg,#755bea,#ff72c0);
+	color: #fff;
+	padding: 10px 20px;
+}
+.second:hover{
+	color: #fff;
+	background: linear-gradient(360deg,#755bea,#ff72c0);
+	text-decoration: none;
+}
+.third{
+	background: linear-gradient(90deg,#866cfb,#e84118);
+	color: #fff;
+	padding: 10px 20px;
+}
+.third:hover{
+	color: #fff;
+	background: linear-gradient(360deg,#e84118,#866cfb);
+	text-decoration: none;
+}
+.jb{
+	padding-top: 150px;
+}
+.h{
+	height: 40px;
+}
+#contactus{
+	border-top: 10px solid #7f8fa6;
+}
+.sit{
+	border-top: 20px solid #7f8fa6;
+	border-bottom: 20px solid #7f8fa6;
+	border-left: 20px solid #7f8fa6;
+	border-right: 20px solid #7f8fa6;
+	background: url(../images/backpaper.jpg);
+	background-size: cover;
+	background-position: center;
+}
+footer{
+	padding: 30px;
+}
